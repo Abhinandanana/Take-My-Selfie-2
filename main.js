@@ -14,7 +14,7 @@ var resultdata= event.results[0][0].transcript;
 
 document.getElementById("voice_output").innerHTML= resultdata;
 
-if (resultdata== "take my selfie") {
+if (resultdata== "Take My Selfie") {
     console.log("taking your selfie");
     speak();
 } else {
